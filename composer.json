@@ -78,7 +78,18 @@
         "drupal/media_entity_browser":          "2.x-dev#31fdf95",
         "drupal/pdf":                           "1.x-dev#1e33fbf",
         "drupal/private_message":               "2.x-dev#0d76aa9",
-        "opigno/opigno_lms":                    "2.18.0"
+        "opigno/opigno_lms":                    "2.18.0",
+        "drupal/module_filter": "^3.1",
+        "drupal/masquerade": "^2.0@beta",
+        "drupal/adminimal_theme": "^1.6",
+        "drupal/admin_toolbar": "^2.3",
+        "drupal/adminimal_admin_toolbar": "^1.11",
+        "drupal/hook_event_dispatcher": "^2.3",
+        "drupal/backup_migrate": "^4.1",
+        "drupal/flysystem_s3": "^2.0@RC",
+        "drupal/devel_entity_updates": "^3.0",
+        "drupal/oauth2_server": "^1.0",
+        "drupal/entity_browser_enhanced": "^1.0"
     },
     "require-dev": {
         "drush/drush":      "^9.1",
