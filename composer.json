@@ -89,7 +89,8 @@
         "drupal/flysystem_s3": "^2.0@RC",
         "drupal/devel_entity_updates": "^3.0",
         "drupal/oauth2_server": "^1.0",
-        "drupal/entity_browser_enhanced": "^1.0"
+        "drupal/entity_browser_enhanced": "^1.0",
+        "drupal/select_a11y": "^1.0"
     },
     "require-dev": {
         "drush/drush":      "^9.1",
