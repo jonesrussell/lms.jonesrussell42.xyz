@@ -244,4 +244,6 @@ live:
   user: russell 
   root: /srv/www/lms.jonesrussell42.xyz
   uri: https://lms.jonesrussell42.xyz 
+  paths:
+    drush-script: '/home/russell/.local/bin/drush'
 
