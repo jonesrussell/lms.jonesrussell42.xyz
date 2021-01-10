@@ -92,7 +92,8 @@
         "drupal/entity_browser_enhanced": "^1.0",
         "drupal/select_a11y": "^1.0",
         "drupal/redis": "^1.5",
-        "drupal/flood_control": "^2.1"
+        "drupal/flood_control": "^2.1",
+        "drupal/varbase_api": "^7.14"
     },
     "require-dev": {
         "drush/drush":      "^9.1",
