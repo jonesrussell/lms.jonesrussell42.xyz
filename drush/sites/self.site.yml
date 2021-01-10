@@ -1,5 +1,5 @@
 #
-# Example of valid statements for an alias file.
+# lms.jonesrussell42.xyz alias file.
 
 # Basic Alias File Usage
 #
@@ -220,7 +220,6 @@
 # leading hashes to enable.
 #
 # @code
-# # File: mysite.site.yml
 # stage:
 #   uri: http://stage.example.com
 #   root: /path/to/remote/drupal/root
@@ -235,8 +234,14 @@
 #       sync:
 #         options:
 #           no-dump: true
-# dev:
-#   root: /path/to/docroot
-#   uri: https://dev.example.com
 # @endcode
+
+dev:
+  root: /var/www/html
+  uri: https://lms.jonesrussell42.xyz.ddev.site 
+live:
+  host: black-one.jonesrussell42.xyz 
+  user: russell 
+  root: /srv/www/lms.jonesrussell42.xyz
+  uri: https://lms.jonesrussell42.xyz 
 
