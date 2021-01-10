@@ -104,6 +104,8 @@
         "h5p/h5p-editor": "*"
     },
     "config": {
+        "optimize-autoloader": true,
+        "classmap-authoritative": true,
         "preferred-install": {
             "drupal/view_mode_selector":            "source",
             "drupal/views_role_based_global_text":  "source",
