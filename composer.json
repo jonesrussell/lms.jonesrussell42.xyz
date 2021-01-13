@@ -94,7 +94,8 @@
         "drupal/redis": "^1.5",
         "drupal/flood_control": "^2.1",
         "drupal/varbase_api": "^7.14",
-        "drupal/social_api": "^3.0"
+        "drupal/social_api": "^3.0",
+        "drupal/social_auth_facebook": "~2.0"
     },
     "require-dev": {
         "drush/drush":      "^9.1",
