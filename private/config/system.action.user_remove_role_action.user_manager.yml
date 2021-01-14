@@ -1,0 +1,14 @@
+uuid: 6ffb27c3-bf51-4b7c-ad5a-2238e9b695c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.user_manager
+  module:
+    - user
+id: user_remove_role_action.user_manager
+label: 'Remove the User manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: user_manager

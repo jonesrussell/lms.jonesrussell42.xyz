@@ -1,0 +1,28 @@
+uuid: 5d795b08-b27b-4838-acc9-bd8266b5a198
+langcode: en
+status: true
+dependencies:
+  module:
+    - opigno_learning_path
+    - system
+  theme:
+    - platon
+_core:
+  default_config_hash: cR760cwgCU6YxR6eTwWxW8ZV21rDvfvb4JtfZsnLOLw
+id: lp_steps_block
+theme: platon
+region: sidebar_first
+weight: 0
+provider: null
+plugin: lp_steps_block
+settings:
+  id: lp_steps_block
+  label: 'LP Steps'
+  provider: opigno_learning_path
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/module/*/result*\r\n/group/*/module/*"
+    negate: false
+    context_mapping: {  }

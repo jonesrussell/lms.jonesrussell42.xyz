@@ -1,0 +1,12 @@
+uuid: 0e6aa28c-46d7-48fb-b9fe-3ad9cc22c460
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 9D31HwdjG868mF9Fa5zGSJDeU_T45YJlKDoOmOE6O6A
+id: user.pm_thread_preview
+label: 'PM Thread Preview'
+targetEntityType: user
+cache: true

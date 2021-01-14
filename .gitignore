@@ -23,6 +23,7 @@
 # Ignore .env files as they are personal
 /.env
 
-/private
+/private/backups
+/private/files
 *.gz
 

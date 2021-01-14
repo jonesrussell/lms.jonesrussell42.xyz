@@ -1,0 +1,12 @@
+uuid: 63353fc0-1a8b-42c0-b5ad-159a4a2e938c
+langcode: en
+status: true
+dependencies:
+  module:
+    - opigno_group_manager
+_core:
+  default_config_hash: Ny0dh4VVTmIUDwOrCKKpan9KgUs4goHkclJwRWMpRlA
+id: opigno_group_link.token
+label: Token
+targetEntityType: opigno_group_link
+cache: true

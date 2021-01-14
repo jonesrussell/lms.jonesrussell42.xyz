@@ -1,0 +1,33 @@
+uuid: 6617d591-08bc-42f0-b1e1-24cf5032b6ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.private_message
+  module:
+    - system
+    - views
+  theme:
+    - platon
+_core:
+  default_config_hash: NqGXPLvK_9umfE8TiYpkSkMTpOIpIeS2PmI6fi5x-34
+id: views_block__private_message_block_all
+theme: platon
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:private_message-block_all'
+settings:
+  id: 'views_block:private_message-block_all'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/private-messages\r\n/private-messages/*\r\n/private-message/*"
+    negate: false
+    context_mapping: {  }

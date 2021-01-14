@@ -1,0 +1,13 @@
+auth: {  }
+post_login: /user
+redirect_user_form: false
+disable_admin_login: true
+disabled_roles:
+  collaborative_features: '0'
+  statistics_reader: '0'
+  user_manager: '0'
+  content_manager: '0'
+  administrator: '0'
+user_allowed: register
+_core:
+  default_config_hash: DnBjrr9v0uS26aZSDg5DvY-uwQvs3JFtdEq1r0uw_Yc
