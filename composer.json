@@ -97,7 +97,8 @@
         "drupal/flysystem": "^2.0@alpha",
         "drupal/flysystem_s3": "^2.0@RC",
         "drupal/social_auth": "^3.0",
-        "drupal/social_auth_facebook": "^3.0@RC"
+        "drupal/social_auth_facebook": "^3.0@RC",
+        "drupal/social_auth_google": "^2.0"
     },
     "require-dev": {
         "drush/drush":      "^9.1",
