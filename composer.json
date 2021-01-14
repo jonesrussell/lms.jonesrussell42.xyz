@@ -86,7 +86,6 @@
         "drupal/adminimal_admin_toolbar": "^1.11",
         "drupal/hook_event_dispatcher": "^2.3",
         "drupal/backup_migrate": "^4.1",
-        "drupal/flysystem_s3": "^2.0@RC",
         "drupal/devel_entity_updates": "^3.0",
         "drupal/oauth2_server": "^1.0",
         "drupal/entity_browser_enhanced": "^1.0",
@@ -95,7 +94,10 @@
         "drupal/flood_control": "^2.1",
         "drupal/varbase_api": "^7.14",
         "drupal/social_api": "^3.0",
-        "drupal/social_auth_facebook": "~2.0"
+        "drupal/flysystem": "^2.0@alpha",
+        "drupal/flysystem_s3": "^2.0@RC",
+        "drupal/social_auth": "^3.0",
+        "drupal/social_auth_facebook": "^3.0@RC"
     },
     "require-dev": {
         "drush/drush":      "^9.1",
@@ -153,6 +155,8 @@
         "composer-exit-on-patch-failure": false,
         "patchLevel": {
             "drupal/core": "-p2"
+        },
+        "patches": {
         }
     }
 }

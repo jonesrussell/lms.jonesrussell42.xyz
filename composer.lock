@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8690195d46673fad84832c84c80d5590",
+    "content-hash": "e69ce4af6d922a36b8fde3cff3bdd68d",
     "packages": [
         {
             "name": "almende/vis",
@@ -4170,20 +4170,20 @@
         },
         {
             "name": "drupal/flysystem",
-            "version": "1.0.0",
+            "version": "2.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/flysystem.git",
-                "reference": "8.x-1.0"
+                "reference": "2.0.0-alpha1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/flysystem-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "8b6bd358c24e7ec8504d324f6a50bdc11ac1dc14"
+                "url": "https://ftp.drupal.org/files/projects/flysystem-2.0.0-alpha1.zip",
+                "reference": "2.0.0-alpha1",
+                "shasum": "66784415e95c317cc5d642029b717598a75e7b95"
             },
             "require": {
-                "drupal/core": "~8.0",
+                "drupal/core": "^8.8 || ^9",
                 "league/flysystem": "^1.0.3",
                 "league/flysystem-replicate-adapter": "~1.0",
                 "twistor/flysystem-stream-wrapper": "^1.0.5"
@@ -4194,11 +4194,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1497585842",
+                    "version": "2.0.0-alpha1",
+                    "datestamp": "1590912218",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -8579,37 +8579,40 @@
         },
         {
             "name": "drupal/social_auth",
-            "version": "2.0.0-beta1",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/social_auth.git",
-                "reference": "8.x-2.0-beta1"
+                "reference": "3.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_auth-8.x-2.0-beta1.zip",
-                "reference": "8.x-2.0-beta1",
-                "shasum": "66bf56ba1b6eb8e97e1351b5f14a24f879764e18"
+                "url": "https://ftp.drupal.org/files/projects/social_auth-3.0.1.zip",
+                "reference": "3.0.1",
+                "shasum": "574884c8faf1ccff9aa24dbe8de1fb1203e26a8e"
             },
             "require": {
-                "drupal/core": "~8.0",
-                "drupal/social_api": "*",
-                "league/oauth2-client": "~2.0"
+                "drupal/core": "^8.8 || ^9.0",
+                "drupal/social_api": "^3"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.0-beta1",
-                    "datestamp": "1510864085",
+                    "version": "3.0.1",
+                    "datestamp": "1609802467",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -8623,8 +8626,9 @@
                     "email": "hudixt@gmail.com"
                 },
                 {
-                    "name": "gvso",
-                    "homepage": "https://www.drupal.org/user/3101285"
+                    "name": "Chrsitopher C. Wells (wells)",
+                    "homepage": "https://www.drupal.org/user/3101285",
+                    "email": "drupal.org@chris-wells.net"
                 },
                 {
                     "name": "himanshu-dixit",
@@ -8647,31 +8651,34 @@
         },
         {
             "name": "drupal/social_auth_facebook",
-            "version": "2.0.0",
+            "version": "3.0.0-rc2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/social_auth_facebook.git",
-                "reference": "8.x-2.0"
+                "reference": "3.0.0-rc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_auth_facebook-8.x-2.0.zip",
-                "reference": "8.x-2.0",
-                "shasum": "755976c488bf585d29536adbc0a86427f5a3d6e7"
+                "url": "https://ftp.drupal.org/files/projects/social_auth_facebook-3.0.0-rc2.zip",
+                "reference": "3.0.0-rc2",
+                "shasum": "7144afc826745757ff1c97d9cabd5415521f0f7f"
             },
             "require": {
-                "drupal/core": "~8.0",
-                "drupal/social_auth": "^2.0",
+                "drupal/core": "^8.8 || ^9",
+                "drupal/social_auth": "^3.0",
                 "league/oauth2-facebook": "^2.0"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.0",
-                    "datestamp": "1577376483",
+                    "version": "3.0.0-rc2",
+                    "datestamp": "1609975808",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -8696,8 +8703,9 @@
                     "email": "hudixt@gmail.com"
                 },
                 {
-                    "name": "himanshu-dixit",
-                    "homepage": "https://www.drupal.org/user/3513954"
+                    "name": "Christopher C. Wells (wells)",
+                    "homepage": "https://www.drupal.org/user/3513954",
+                    "email": "drupal.org@chris-wells.net"
                 },
                 {
                     "name": "wells",
@@ -8710,7 +8718,7 @@
                 "Drupal"
             ],
             "support": {
-                "source": "http://cgit.drupalcode.org/social_auth_facebook",
+                "source": "https://git.drupalcode.org/project/social_auth_facebook",
                 "issues": "https://www.drupal.org/project/issues/social_auth_facebook"
             }
         },
@@ -16482,7 +16490,9 @@
         "drupal/pdf": 20,
         "drupal/private_message": 20,
         "drupal/masquerade": 10,
-        "drupal/flysystem_s3": 5
+        "drupal/flysystem": 15,
+        "drupal/flysystem_s3": 5,
+        "drupal/social_auth_facebook": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,
